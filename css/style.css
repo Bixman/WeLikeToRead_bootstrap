@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+header,
+section {
+  overflow-x: hidden;
+}
+
+header {
+  background: linear-gradient(#212529, #6c757d);
+}
+
+header .navbar {
+  transition: all 1.5s ease;
+}
+
+header .navbar-brand {
+  font-size: 1.5em;
+  margin-left: 10px;
+}
+header .navbar-nav a {
+  border-bottom: solid 2px transparent;
+}
+
+header .navbar-nav a:hover {
+  border-bottom: solid 2px white;
+}
+
+.section-1 h1 {
+  margin-top: 20vmin;
+  margin-bottom: 20vmin;
+}
+
+.section-1 .border-radius {
+  border-radius: 50%;
+}
+
+.section-1 .card {
+  width: 28em;
+  margin-top: 10px;
+}
+
+.cover {
+  width: 100%;
+  height: 30vmin;
+  background: url("../assets/chris-lawton-9T346Ij4kGk-unsplash.jpg");
+  background-size: 100%;
+  position: relative;
+  margin-top: 10px;
+}
+
+.cover .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+.cover .content {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  padding-top: 10vmin;
+}
+
+.cover .content > h1 {
+  font-size: 5vmin;
+  color: white;
+}
+
+.cover .content > p {
+  font-size: 3vmin;
+  color: white;
+}
+
+.numbers .rect {
+  position: relative;
+  z-index: 1;
+  width: 15rem;
+  height: 10rem;
+  padding-top: 5vmin;
+  margin: 2.5rem;
+  border-radius: 1em;
+  box-shadow: 2px 2px 60px 0px rgba(33, 37, 41, 0.349);
+  background: white;
+}
+
+.numbers {
+  margin-top: -8vmin;
+  padding-bottom: 30px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.815);
+  z-index: 5;
+  transition: all 1.5s ease;
+}
+
+.section-2 {
+  margin-top: 20vmin;
+  margin-bottom: 5vmin;
+}
+
+.section-3 h1 {
+  margin: 2vmin;
+}
+
+.section-3 .bookContainer {
+  overflow: hidden;
+  margin-bottom: 5vmin;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(#212529, #6c757d);
+  padding: 2vmin;
+  border-radius: 1em;
+}
+
+.section-3 .bookContainer img {
+  transition: all 0.5s ease;
+}
+
+.section-3 .bookContainer img:hover {
+  transform: scale(1.1);
+}
