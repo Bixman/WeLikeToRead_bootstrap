@@ -128,4 +128,18 @@ header .navbar-nav a:hover {
 
 .section-3 .bookContainer img:hover {
   transform: scale(1.1);
+  cursor: pointer;
+}
+
+footer {
+  background: #6c757d;
+}
+
+.section-4 img {
+  max-width: 35px;
+}
+
+.material-icons {
+  vertical-align: -5.5px;
+  margin-right: 3px;
 }
